@@ -33,6 +33,9 @@ nav{
     
     padding: 10px 0px;
 }
+.jumbotron-header2{
+  background-color: #1a1a1a;  
+}
 .navLink{
    font-family: 'Montserrat', sans-serif;
    color: #ffffff;
@@ -176,6 +179,8 @@ nav{
 .carousel-indicators li{
    width: 11px;
    height: 11px;
+   border-radius: 50%;
+   background-color: #a9b04f;
 }
 #demo .carousel-caption{
     left: 10%;
@@ -207,7 +212,7 @@ nav{
 .heading{
     font-family: 'Montserrat', sans-serif;
     color: #000000;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     line-height: 1.6; 
     letter-spacing: 1px;
@@ -215,11 +220,11 @@ nav{
 .heading1{
     font-family: 'Montserrat', sans-serif;
     color: #8c8c8c;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
     line-height: 1.6; 
     letter-spacing: 1px; 
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 .heading1ClrB{
     font-size: 40px;
@@ -240,6 +245,59 @@ nav{
     background-color: transparent;
     color: #000000;
     border: 2px solid #a9b04f;
+}
+.bigHeading1{
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+.greyBox{
+   background-color: #f2f2f2;
+   padding: 13px 12px;
+   text-align: center;
+   height: 100%;
+}
+.marginTop{
+    margin-top: -10px;
+}
+.margingBottom{
+    margin-bottom: 14px;
+}
+.clrBox{
+    background-color: #a9b04f;
+    padding: 10px 0px;
+    text-align: center;
+}
+.smallSlider{
+    width: 100%;
+    height: 270px !important;
+}
+.borderAcross{
+    margin-top: 5px;
+    border: 1px solid #b3b3b3;
+    padding: 4px;
+}
+.sideImg{
+    height: 255px !important;
+    width: 100%;
+}
+.greyBack{
+    background-color: #f2f2f2;
+    padding-top: 60px;
+}
+.extraPadding{
+    padding: 40px 0px;
+}
+.img1{
+    width: 100%;
+    height: 566px !important;
+}
+.consulButtonClrBlock{
+    display: block;
+    text-align: center;
 }
 
 
@@ -266,6 +324,9 @@ nav{
     .smallHeading{
         font-size: 15px;
     }
+    .bigHeading1{
+        font-size: 17px;
+    }
 }
 
 
@@ -281,13 +342,19 @@ nav{
     .smallHeading{
        font-size: 14px;  
     } 
+     .bigHeading1{
+        font-size: 27px;
+    }
+    
     
 }
     
 
 /* Medium devices ( 768px and down) start */
 @media only screen and (max-width: 768px){ 
-   
+    .bigHeading1{
+        font-size: 24px;
+    }
 }
 
 
@@ -303,6 +370,9 @@ nav{
     .smallHeading{
        font-size: 13px;  
     } 
+    .bigHeading1{
+        font-size: 32px;
+    }
     
 }
 
